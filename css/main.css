@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=DM+Serif+Display:ital@0;1&family=Danfo&family=Diplomata&family=DynaPuff:wght@400..700&family=Fascinate&family=Fascinate+Inline&family=Fugaz+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Luckiest+Guy&family=Mea+Culpa&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Paprika&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Port+Lligat+Sans&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rosarivo:ital@0;1&family=Rubik+Beastly&family=Rubik+Dirt&family=Rubik+Gemstones&family=Rubik+Puddles&family=Schoolbell&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=DM+Serif+Display:ital@0;1&family=Danfo&family=Diplomata&family=DynaPuff:wght@400..700&family=Fascinate&family=Fascinate+Inline&family=Fugaz+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Luckiest+Guy&family=Mea+Culpa&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Paprika&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Port+Lligat+Sans&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rosarivo:ital@0;1&family=Rubik+Beastly&family=Rubik+Dirt&family=Rubik+Gemstones&family=Rubik+Puddles&family=Schoolbell&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=DM+Serif+Display:ital@0;1&family=Danfo&family=Diplomata&family=DynaPuff:wght@400..700&family=Fascinate&family=Fascinate+Inline&family=Fugaz+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Luckiest+Guy&family=Mea+Culpa&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Paprika&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Port+Lligat+Sans&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rosarivo:ital@0;1&family=Rubik+Beastly&family=Rubik+Dirt&family=Rubik+Gemstones&family=Rubik+Puddles&family=Schoolbell&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    background: #202D45;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.nav__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+
+.nav__list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav__box{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav__link {
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+    transition: 0.3s;
+    padding: 10px 0;
+    display: block;
+    overflow: hidden;
+}
+
+.nav__link::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 6px;
+    height: 6px;
+    background: #ff004c;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 5px #ff004c;
+    transform: translateX(-50%) scale(0);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+
+.nav__link.active {
+    color: #ff004c; 
+    text-shadow: 0 0 15px #ff004c;
+}
+
+.nav__link.active::before {
+    transform: translateX(-50%) scale(1);
+    opacity: 1;
+}
+
+.nav__link:not(.nav__logo):hover {
+    color: #ff004c;
+    text-shadow: 0 0 10px rgba(255, 0, 76, 0.5);
+}
+
+.nav__link:not(.nav__logo):hover::before {
+    transform: translateX(-50%) scale(1);
+    opacity: 1;
+}
+
+.bars {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.bar {
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    transform-origin: 1px;
+}
+
+.bars.open .bar-1 {
+    transform: rotate(45deg) translate(0px, 0px);
+}
+
+.bars.open .bar-2 {
+    opacity: 0;
+}
+
+.bars.open .bar-3 {
+    transform: rotate(-45deg) translate(0px, 0px);
+}
+
+
+@media (max-width: 768px) {
+
+   
+    .bars {
+        display: flex;
+    }
+
+    
+    .nav {
+        background: #122650de;
+        width: 100%;
+        height: 80px;
+        position: fixed; 
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 532467890;
+    }
+    .nav__box {
+        position: absolute;
+        top: 60px; 
+        left: 0;
+        width: 100%;
+        background: #122650de; 
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        z-index: 99;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease-in-out;
+        display: flex; 
+    }
+
+   
+    .nav__box.open {
+        max-height: 400px; 
+        padding: 10px 0;
+    }
+    
+  
+    .nav__list {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 0;
+    }
+
+   
+    .nav__list .nav__item {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .nav__list .nav__item:last-child {
+        border-bottom: none;
+    }
+    
+   
+    .nav__span {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 10px; 
+    }
+
+    
+    .nav__link.active::before,
+    .nav__link:not(.nav__logo):hover::before {
+        bottom: 5px; 
+    }
+}
+
+
+/* =====================header======================== */
+
+
+.header__title{
+    font-family: Playfair Display;
+font-weight: 400;
+font-style: Italic;
+font-size: 180px;
+color: #E5BF9B;
+line-height: 100%;
+letter-spacing: 0%;
+margin-bottom: 20px;
+animation: zoomInDown;
+animation-duration: 1s;
+}
+
+.header__title1{
+    font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 80px;
+color: #ffffff;
+line-height: 100%;
+letter-spacing: 0%;
+margin-bottom: 20px;
+}
+
+.header__text{
+    font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+color: #ffffff;
+line-height: 180%;
+letter-spacing: 0%;
+margin-bottom: 20px;
+width: 400px;
+}
+.header__title2{
+    font-family: Playfair Display;
+font-weight: 400;
+font-style: Italic;
+font-size: 60px;
+color: #E5BF9B;
+line-height: 100%;
+letter-spacing: 0%;
+margin-bottom: 20px;
+}
+
+.header__title3{
+    font-family: Montserrat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 18px;
+color: #ffffff;
+line-height: 18px;
+letter-spacing: 0%;
+margin-bottom: 20px;
+}
+
+.header__text1{
+    font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+color: #949AA5;
+line-height: 150%;
+letter-spacing: 0%;
+margin-bottom: 20px;
+}
+
+.header__boxs{
+    display: flex;
+    align-items:center;
+    gap: 50px;
+   
+}
+
+.pow{
+    display: flex;
+    gap: 100px;
+}
+
+.header__container{
+    position: relative;
+    top: 200px;
+    z-index: 2;
+}
+
+
+.header{
+    width: 100%;
+    height: 1000px;
+    background-image: linear-gradient(to top, #202D45, #202D4500), url(../images/1.png);
+    background-size: cover;
+    background-repeat: repeat;
+    margin-top: -100px;
+    position: relative;
+
+     
+}
+.header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    animation: bgSlide 10s infinite;
+    z-index: 1;
+    filter: brightness(0.6);
+}
+
+
+@keyframes bgSlide {
+    0% {
+        background-image: linear-gradient(to top, #202d4591, #366ed633), url(../images/1.png);
+    }
+
+    25% {
+        background-image: linear-gradient(to top, #202d4591, #366ed633), url(../images/rasm1.png);
+    }
+
+    50% {
+        background-image: linear-gradient(to top, #202d4591, #366ed633), url(../images/rasm2.png);
+    }
+
+    75% {
+        background-image: linear-gradient(to top, #202d4591, #366ed633), url(../images/rasm4.png);
+    }
+
+    100% {
+        background-image: linear-gradient(to top, #202d4591, #366ed633), url(../images/rasm.png);
+    }
+}
+
+
+/* --- 1024px va undan kichik ekranlar uchun (Planshetlar) --- */
+@media (max-width: 1024px) {
+    .header__title {
+        font-size: 120px;
+    }
+    .header__title1 {
+        font-size: 60px;
+    }
+    .pow {
+        gap: 30px; 
+    }
+}
+
+/* --- 768px va undan kichik ekranlar uchun (Planshetlar va Katta Telefonlar) --- */
+@media (max-width: 768px) {
+    .header {
+        height: 700px; 
+    }
+    
+    .header__container {
+        flex-direction: column; /* Vertikal joylashuv */
+        align-items: flex-start; 
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .header__list {
+        max-width: 100%; 
+        margin-bottom: 30px; 
+    }
+    
+    .header__title {
+        font-size: 80px; 
+    }
+    
+    .header__title1 {
+        font-size: 40px; 
+    }
+    
+    .header__text {
+        width: 100%;
+        max-width: none; /* Kenglikni cheklamaslik */
+    }
+
+    .pow {
+        gap: 30px;
+        flex-wrap: wrap; /* Stats bloklari pastga tushishi uchun */
+    }
+    
+    .header__box {
+        margin-bottom: 20px;
+    }
+}
+
+/* --- 480px va undan kichik ekranlar uchun (Kichik Telefonlar) --- */
+@media (max-width: 480px) {
+
+    .header{
+        height: 700px;
+    }
+    .header__title {
+        font-size: 55px; 
+    }
+    .header__text{
+        font-size: 14px;
+    }
+    
+    .header__title1 {
+        font-size: 30px;
+    }
+    
+    .pow {
+        gap: 10px; 
+        justify-content: space-between; 
+    }
+
+   .header__title2{
+font-size: 20px;
+}
+
+.header__title3{
+font-size: 12px;
+}
+
+.header__text1{
+font-size: 10px;      
+}
+.header__boxs{
+    gap: 20px;
+}
+}
