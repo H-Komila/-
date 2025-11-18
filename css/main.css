@@ -331,7 +331,7 @@ margin-bottom: 20px;
 }
 
 
-/* --- 1024px va undan kichik ekranlar uchun (Planshetlar) --- */
+
 @media (max-width: 1024px) {
     .header__title {
         font-size: 120px;
@@ -344,14 +344,14 @@ margin-bottom: 20px;
     }
 }
 
-/* --- 768px va undan kichik ekranlar uchun (Planshetlar va Katta Telefonlar) --- */
+
 @media (max-width: 768px) {
     .header {
         height: 700px; 
     }
     
     .header__container {
-        flex-direction: column; /* Vertikal joylashuv */
+        flex-direction: column; 
         align-items: flex-start; 
         padding-top: 50px;
         padding-bottom: 50px;
@@ -372,12 +372,12 @@ margin-bottom: 20px;
     
     .header__text {
         width: 100%;
-        max-width: none; /* Kenglikni cheklamaslik */
+        max-width: none; 
     }
 
     .pow {
         gap: 30px;
-        flex-wrap: wrap; /* Stats bloklari pastga tushishi uchun */
+        flex-wrap: wrap; 
     }
     
     .header__box {
@@ -385,11 +385,17 @@ margin-bottom: 20px;
     }
 }
 
-/* --- 480px va undan kichik ekranlar uchun (Kichik Telefonlar) --- */
+
 @media (max-width: 480px) {
 
+    .header__container{
+    position: relative;
+    top: 0px;
+    z-index: 2;
+}
     .header{
         height: 700px;
+        margin-top: 100px;
     }
     .header__title {
         font-size: 55px; 
