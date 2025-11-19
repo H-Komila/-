@@ -39,3 +39,19 @@ document.addEventListener('DOMContentLoaded', () => {
         firstLink.classList.add('active');
     }
 });
+
+
+
+
+
+
+
+function showLoader(e){
+    e.preventDefault();
+
+    document.getElementById("loader").style.display = "block";
+
+    setTimeout(() => {
+        window.location.href = "Picture.html";
+    }, 2000);
+}
